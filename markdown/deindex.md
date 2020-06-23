@@ -1,6 +1,8 @@
-# DEINDEX
+# DEINDEX (beta)
 
-Hamburg 2020 // @UlrichJanus
+Hamburg 2020 //
+[ulrichjanus.github.io/slides](https://ulrichjanus.github.io/slides/#/)
+
 
 ---
 
