@@ -19,7 +19,7 @@
 				<!-- <section>Slide 1</section>
 				<section>Slide 2</section>
 				<section>Slide 3</section> -->
-					<section data-markdown="markdown/deindex.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$"
+					<section data-markdown="markdown/recs_core.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$"
 								style="text-align: left;"></section>
 			<!-- <section data-markdown>
 					<textarea data-template>
@@ -49,5 +49,20 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
+
+		<!-- For showing math symbols -->
+		<script src="plugin/math/math.js"></script>
+		<script>
+		Reveal.initialize({
+			math: {
+			mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+			config: 'TeX-AMS_HTML-full',
+			// pass other options into `MathJax.Hub.Config()`
+			TeX: { Macros: { RR: "{\\bf R}" } }
+			},
+			plugins: [ RevealMath ]
+		});
+		</script>
+
 	</body>
 </html>
