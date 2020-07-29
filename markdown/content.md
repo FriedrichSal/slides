@@ -1,23 +1,26 @@
-# RECS CORE formulas
+# Title
 
-$/int$
 Hamburg 2020 //
-[ulrichjanus.github.io/slides](https://ulrichjanus.github.io/slides/#/)
+[FriedrichSal.github.io/slides](https://FriedrichSal.github.io/slides/#/)
 
 
 ---
 
-## Mieterliste
+## Slide One
 
-Zeitperioden: `$t_0, \ldots, t_n$`
+zeta function
 
-Mietcashflow `$M = (m_0, \ldots, m_n)$`  mit `$m_i$` Miete in Periodde `$t_i$`. 
+`$$ \zeta(s)  = \sum_{n=1}^{\infty} \frac{1}{n^s}$$`
 
-`$$ M = \sum_{i=0}^n M_{t_i} $$`
+```python [2]
+def myfunc():
+    print("Hello")
+```
 
+--
 
-didau
+## Slide Below
 
 ---
 
-# Q&A
+## Slide two
